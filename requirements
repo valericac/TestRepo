@@ -1,0 +1,13 @@
+# Audio processing
+librosa>=0.10.1
+soundfile>=0.12.1
+audio-separator>=0.9.0
+numpy>=1.24.0
+scipy>=1.11.3
+
+# Data handling
+pandas>=2.0.0
+
+# Optional but recommended
+tqdm>=4.65.0  # for progress bars
+pyyaml>=6.0.1  # needed by audio-separator
