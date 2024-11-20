@@ -27,7 +27,7 @@ def bandpass(input_file):
     # Define speech filter parameters
     nyquist = sr // 2
     filter_order = 4
-    speech_range = [80, 8000]  # Speech frequency range in Hz, speech bannana 
+    speech_range = [80, 8000]  # Speech frequency range in Hz, speech banana 
     
     # Apply bandpass filter
     b, a = signal.butter(
